@@ -17,11 +17,13 @@ function App() {
         >
           Learn React
         </a>
-        <div className="border-2 border-opacity-20 border-white-800">
+        <div className="border-2 rounded-tl-3xl border-opacity-20 border-white-800 border-dotted">
           <ul className='text-1xl list-disc list-inside'>
             Benefit of learning React:
-            <li>Modern</li>
-            <li>Component based</li>
+            <div className="ring-4 ring-opacity-20">
+              <li>Modern</li>
+              <li>Component based</li>
+            </div>
           </ul>
         </div>
       </header>
